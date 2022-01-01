@@ -24,7 +24,7 @@ function App() {
               <Topbar />
               <div class="container-fluid">
                 <Routes>
-                  <Route path="/dash" element={<Dashbord />} />
+                  <Route path="/dashboard" element={<Dashbord />} />
                   <Route path="/student" element={<Studentlist />} />
                   <Route path="/student/:id" element={<Attendancelist />} />
                   <Route path="/addattendance/:id" element={<Addattendance />} />
